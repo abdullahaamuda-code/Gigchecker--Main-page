@@ -1,0 +1,123 @@
+/* GENERAL PAGE */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0f172a; /* dark background like the tool */
+  color: #e5e7eb;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: #22c55e;
+  color: #020617;
+  padding: 40px 20px 20px 20px;
+  text-align: left;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #e5e7eb;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* SECTION CARDS */
+.card {
+  background: #111827; /* match the tool’s card dark */
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  color: #e5e7eb;
+}
+
+.section h2 {
+  color: #22c55e; /* green highlight like tool */
+  margin-bottom: 12px;
+}
+
+.section p {
+  margin-bottom: 15px;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #22c55e;
+  color: #020617;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: #16a34a;
+}
+
+.btn-web {
+  background: #2563eb;
+  color: #fff;
+}
+.btn-apk {
+  background: #f59e0b;
+  color: #020617;
+}
+
+.btn-apk:hover {
+  background: #d97706;
+}
+
+.btn-web:hover {
+  background: #1d4ed8;
+}
+
+/* LISTS */
+ol, ul {
+  padding-left: 20px;
+  color: #cbd5e1;
+}
+
+/* VIDEO */
+video {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin: 40px 0 20px 0;
+}
+
+/* LINKS */
+a {
+  color: #22c55e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
